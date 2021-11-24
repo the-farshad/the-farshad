@@ -21,7 +21,7 @@
 
  
 
-  <img align="right" alt="GIF" src="https://media.giphy.com/media/IgpAALi5hEv1IFmCrZ/giphy.gif" />
+  <img align="right" alt="GIF" width=400 src="https://media.giphy.com/media/IgpAALi5hEv1IFmCrZ/giphy.gif" />
 
 **About Me!**
 
@@ -41,4 +41,4 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=the-farshad&show_icons=true&hide_border=true&count_private=true&theme=shades-of-purple&icon_color=fad000" alt="Farshad's GitHub Stats">
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=the-farshad&count_private=true&theme=radical" alt="Farshad" />
-<img align="center" width=600 src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-farshad&count_private=true&theme=radical" alt="Farshad" />
+<img align="center" width=500 src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-farshad&count_private=true&theme=radical" alt="Farshad" />
