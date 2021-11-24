@@ -21,7 +21,7 @@
 
  
 
-  <img align="right" alt="GIF" src="https://media0.giphy.com/media/5pUszK9PTZhrlToanq/giphy480p.mp4?cid=ecf05e47bs4idp08ex1qtl7zrjzrfavw8rmlzl84vpsbje9k&rid=giphy480p.mp4" />
+  <img align="right" alt="GIF" src="https://media.giphy.com/media/IgpAALi5hEv1IFmCrZ/giphy.gif" />
 
 **About Me!**
 
