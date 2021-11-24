@@ -6,7 +6,7 @@
   <img align="left" alt="Farshad's LinkedIn" width="24px" src="https://img.icons8.com/nolan/96/linkedin.png" />
 </a>
 <a href="https://telegram.me/TheFarshad">
-  <img align="left" alt="Farshad's Instagram" width="24px" src="https://img.icons8.com/nolan/96/telegram.png" />
+  <img align="left" alt="Farshad's Instagram" width="24px" src="https://img.icons8.com/nolan/96/telegram-app.png" />
 </a>
 <a href="https://twitter.com/FarshadGhorbani">
   <img align="left" alt="Farshad's Twitter" width="24px" src="https://img.icons8.com/nolan/96/twitter.png" />
