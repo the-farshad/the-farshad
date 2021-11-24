@@ -34,9 +34,9 @@
 
 
 <code><img height="20" src="https://img.icons8.com/nolan/96/python.png"></code> Python
+<code><img height="20" src="https://img.icons8.com/nolan/96/javascript.png"></code> Javascript
 <code><img height="20" src="https://img.icons8.com/nolan/96/c-plus-plus.png"></code> C++
 <code><img height="20" src="https://img.icons8.com/nolan/96/sql.png"></code> MySQL
-
 <code><img height="20" src="https://img.icons8.com/nolan/96/git.png"></code> GIT
 
 <img src="https://github-readme-stats.vercel.app/api?username=the-farshad&show_icons=true&hide_border=true&count_private=true&theme=shades-of-purple&icon_color=fad000" alt="Farshad's GitHub Stats">
