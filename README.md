@@ -21,7 +21,7 @@
 
  
 
-  <img align="right" alt="GIF" src="https://giphy.com/embed/5pUszK9PTZhrlToanq/video" />
+  <img align="right" alt="GIF" src="https://giphy.com/clips/rickandmorty-rick-and-morty-season-number-s3e9-5pUszK9PTZhrlToanq" />
 
 **About Me!**
 
