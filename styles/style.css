@@ -41,32 +41,26 @@ html, body {
   z-index: 10000;
   color: #ffffff;
   text-decoration: none;
-  font-family: inherit;
-  font-size: 18px;
-  line-height: 1.1;
+  /* Same font everywhere → same x-height → same physical size */
+  font-family: 'Vazirmatn', 'Tahoma', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
   opacity: 0.85;
   display: flex;
-  align-items: baseline;
-  gap: 6px;
+  align-items: center;
+  gap: 8px;
   user-select: none;
 }
 
 #kurd-date:hover { opacity: 1; }
 
-#kurd-date #kurd-date-ck {
-  font-family: 'Vazirmatn', 'Tahoma', sans-serif;
-  direction: rtl;
-  font-size: 18px;
-}
-
-#kurd-date .sep { opacity: 0.6; }
-
-#kurd-date #kurd-date-nk { font-size: 16px; opacity: 0.85; }
+#kurd-date #kurd-date-ck { direction: rtl; }
+#kurd-date .sep { opacity: 0.5; }
 
 @media (max-width: 600px) {
-  #kurd-date { top: 12px; left: 12px; font-size: 14px; }
-  #kurd-date #kurd-date-ck { font-size: 14px; }
-  #kurd-date #kurd-date-nk { font-size: 12px; }
+  #kurd-date { top: 12px; left: 12px; font-size: 13px; gap: 6px; }
+  #kurd-date .sep:nth-of-type(2) { display: none; }
+  #kurd-date #kurd-date-en { display: none; }
 }
 
 body {
