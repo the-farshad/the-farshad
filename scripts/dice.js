@@ -92,7 +92,7 @@
   }
 
   function matrixRain() {
-    const chars = 'FARSHADKURDISTANROJHELATI01یار';
+    const chars = 'FARSHADKURDI01کوردی';
     const fontSize = 16;
     const cols = Math.ceil(window.innerWidth / fontSize);
     const drops = Array.from({ length: cols }, () => Math.random() * -20);
