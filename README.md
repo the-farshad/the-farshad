@@ -1,26 +1,40 @@
-<h2 title="hehehe"> Hey 👋, I'm Farshad!</h2>
-<a href="https://farshadghorbani.com/">
-  <img align="left" alt="Farshad's Website" width="24px" src="https://img.icons8.com/nolan/96/web.png" />
-</a>
-<a href="https://www.linkedin.com/in/farshadghorbani/">
-  <img align="left" alt="Farshad's LinkedIn" width="24px" src="https://img.icons8.com/nolan/96/linkedin.png" />
-</a>
-<a href="https://telegram.me/TheFarshad">
-  <img align="left" alt="Farshad's Instagram" width="24px" src="https://img.icons8.com/nolan/96/telegram-app.png" />
-</a>
-<a href="https://twitter.com/FarshadGhorbani">
-  <img align="left" alt="Farshad's Twitter" width="24px" src="https://img.icons8.com/nolan/96/twitter.png" />
-</a>
-<a href="https://unsplash.com/@farshadghorbani">
-  <img align="left" alt="Farshad's Unsplash" width="24px" src="https://img.icons8.com/nolan/96/unsplash.png" />
-</a>
+# thefarshad.com
 
+Source for my personal site, served via GitHub Pages from this repo.
 
-<br />
-<br />
+- **Site:** [thefarshad.com](https://thefarshad.com)
+- **Stack:** static HTML/CSS/JS (no build step)
+- **Deploy:** push to `master`; GitHub Pages serves it on the `CNAME` domain
 
- 
+## Local preview
 
-  <img align="right" alt="GIF" width=300 src="https://media.giphy.com/media/IgpAALi5hEv1IFmCrZ/giphy.gif" />
+```sh
+python3 -m http.server 8000
+# then open http://localhost:8000
+```
 
-[me at thefarshad.com](mailto:me@thefarshad.com).
+## Layout
+
+```
+index.html      entry page
+blog/           blog index and posts (plain HTML)
+  index.html    list of posts
+  posts/        one HTML file per post
+styles/         CSS
+scripts/        JS
+assets/         images and icons
+_config.yml     Jekyll theme used by GitHub Pages
+CNAME           custom domain
+```
+
+## Adding a blog post
+
+1. Copy an existing file in `blog/posts/` and rename it (e.g. `my-post.html`).
+2. Edit the title, date, and body.
+3. Add a new `<li>` to `blog/index.html` linking to it.
+
+## Contact
+
+[me@thefarshad.com](mailto:me@thefarshad.com) ·
+[LinkedIn](https://www.linkedin.com/in/farshadghorbani/) ·
+[Twitter](https://twitter.com/FarshadGhorbani)
