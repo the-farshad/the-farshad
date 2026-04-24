@@ -58,6 +58,14 @@ footer {
   text-align: center;
 }
 
+.icons + .icons {
+  margin-top: 6px;
+}
+
+.icons.sites .icon-size {
+  opacity: 0.95;
+}
+
 
 .page {
   max-width: 640px;
@@ -161,8 +169,7 @@ footer {
     margin: 0 auto;
   }
   .footer{
-    bottom: 60px;
-    height: 2rem;          /* Footer height */
+    bottom: 40px;
   }
   .quote-font-size{
     font-size: 20px;
