@@ -4,6 +4,36 @@ html, body {
   overflow: hidden;
 }
 
+#dice-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+#dice-btn {
+  position: fixed;
+  top: 14px;
+  right: 16px;
+  z-index: 10000;
+  background: transparent;
+  color: #ffffff;
+  border: 0;
+  font-family: inherit;
+  font-size: 32px;
+  line-height: 1;
+  padding: 4px 8px;
+  cursor: pointer;
+  opacity: 0.8;
+  user-select: none;
+}
+
+#dice-btn:hover { opacity: 1; }
+#dice-btn:focus { outline: 2px dashed rgba(255,255,255,0.6); outline-offset: 2px; }
+
 body {
   background: #fdc114;
   color: #FFF;
