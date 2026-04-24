@@ -23,4 +23,6 @@
 
   <img align="right" alt="GIF" width=300 src="https://media.giphy.com/media/IgpAALi5hEv1IFmCrZ/giphy.gif" />
 
+Around the web: [thefarshad.com](https://thefarshad.com) · [blog](https://blog.thefarshad.com) · [hn](https://hn.thefarshad.com)
+
 [me at thefarshad.com](mailto:me@thefarshad.com).
