@@ -12,8 +12,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/farshadghorbani/"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-FDC114?style=flat-square&labelColor=000&logo=linkedin&logoColor=FDC114"></a>
-  <a href="https://twitter.com/FarshadGhorbani"><img alt="Twitter" src="https://img.shields.io/badge/-Twitter-FDC114?style=flat-square&labelColor=000&logo=twitter&logoColor=FDC114"></a>
-  <a href="https://telegram.me/TheFarshad"><img alt="Telegram" src="https://img.shields.io/badge/-Telegram-FDC114?style=flat-square&labelColor=000&logo=telegram&logoColor=FDC114"></a>
   <a href="https://unsplash.com/@farshadghorbani"><img alt="Unsplash" src="https://img.shields.io/badge/-Unsplash-FDC114?style=flat-square&labelColor=000&logo=unsplash&logoColor=FDC114"></a>
   <a href="mailto:me@thefarshad.com"><img alt="Email" src="https://img.shields.io/badge/-me%40thefarshad.com-FDC114?style=flat-square&labelColor=000&logo=gmail&logoColor=FDC114"></a>
 </p>
