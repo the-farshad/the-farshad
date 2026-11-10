@@ -1,7 +1,12 @@
 html, body {
-  height: 100%;
   margin: 0;
-  overflow: hidden;
+}
+
+.hero {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
 }
 
 #dice-overlay {
@@ -15,7 +20,7 @@ html, body {
 }
 
 #dice-btn {
-  position: fixed;
+  position: absolute;
   top: 14px;
   right: 16px;
   z-index: 10000;
@@ -35,7 +40,7 @@ html, body {
 #dice-btn:focus { outline: 2px dashed rgba(255,255,255,0.6); outline-offset: 2px; }
 
 #kurd-date {
-  position: fixed;
+  position: absolute;
   top: 18px;
   left: 18px;
   z-index: 10000;
@@ -85,6 +90,10 @@ body {
     transition: margin-top 1.5s ease-in-out;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .roles div { transition: none; }
+}
+
 .logo {
   text-indent: -9999px;
   width: 100px;
@@ -94,8 +103,8 @@ body {
 }
 
 footer {
-  position: absolute;
-  width: 100%;
+  margin-top: auto;
+  padding-top: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,6 +137,67 @@ footer {
 .icons.sites .icon-size {
   opacity: 0.95;
 }
+
+.scroll-cue {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.scroll-cue:hover { opacity: 1; }
+
+.section-title {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin: 0 0 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.page section + section {
+  margin-top: 40px;
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-list li {
+  padding: 8px 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.pub-list a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.pub-list a:hover {
+  border-bottom: 2px solid #FFF;
+}
+
+.pub-venue {
+  display: block;
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+.more-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.more-link:hover { opacity: 1; }
 
 
 .page {
@@ -212,7 +282,7 @@ footer {
     margin: 0 auto;
   } 
   .footer{
-    bottom: 10px;
+    padding-bottom: 10px;
   }
   .quote-font-size{
     font-size: 18px;
@@ -232,7 +302,7 @@ footer {
     margin: 0 auto;
   }
   .footer{
-    bottom: 40px;
+    padding-bottom: 40px;
   }
   .quote-font-size{
     font-size: 20px;
