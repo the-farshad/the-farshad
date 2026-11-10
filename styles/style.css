@@ -138,15 +138,6 @@ footer {
   opacity: 0.95;
 }
 
-.scroll-cue {
-  color: #FFF;
-  text-decoration: none;
-  font-size: 20px;
-  opacity: 0.8;
-}
-
-.scroll-cue:hover { opacity: 1; }
-
 .section-title {
   font-size: 18px;
   font-weight: normal;
